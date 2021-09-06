@@ -3,7 +3,7 @@
 
 # Sobre o Projeto
 
-    Api simulando a Criação, Leitura, Alteração e Deleção de produtos fictícios usando C# asp.net core.
+Api simulando a Criação, Leitura, Alteração e Deleção de produtos fictícios usando C# asp.net core.
     
 ## Tecnologias Utilizadas 
 
