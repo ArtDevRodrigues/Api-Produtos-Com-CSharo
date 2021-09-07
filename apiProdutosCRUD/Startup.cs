@@ -11,8 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using apiProdutosCRUD.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace apiProdutosCRUD
 {
@@ -30,10 +28,6 @@ namespace apiProdutosCRUD
         {
 
             services.AddControllers();
-
-            string stringDeConexao = Configuration.GetConnectionString("conexaoMySQL");
-            services.AddDbContext<DataContext>(opt => opt.UseMySql(stringDeConexao, ServerVersion.AutoDetect(stringDeConexao)));
-
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "apiProdutosCRUD", Version = "v1" });

@@ -32,10 +32,14 @@ git clone https://github.com/ArtDevRodrigues/Api-Produtos-Com-CSharp.git
 # entrar na pasta do projeto
 cd apiProdutosCRUD
 
+# acesse o arquivo 'appsettings.json' 
+Altere a linha de conexão para seu usuario e senha do sql server;
+crie um novo banco de dados com o nome "api_produto"
+
 # executar o projeto
 dotnet run
 ```
-Acesse o navegado com o seguinte link para ver a listagem: https://localhost:5001/produto/api
+Acesse o navegado com o seguinte link para ver a listagem em sua maquina local: https://localhost:5001/produto/api
 
 Ou acesse ele em um servidor online: 
 
