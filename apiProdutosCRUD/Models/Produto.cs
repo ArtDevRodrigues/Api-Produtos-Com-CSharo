@@ -5,11 +5,10 @@ namespace apiProdutosCRUD.Models
     public class Produto
     {
         [Key]
-        private int Id{get;set;}
-        private string Nome{get;set;}
-        private int Quant{get;set;}
-        private double Preco{get;set;}
-
+        public int Id{get;set;}
+        public string Nome{get;set;}
+        public int Quant{get;set;}
+        public double Preco{get;set;}
 
     }
 }

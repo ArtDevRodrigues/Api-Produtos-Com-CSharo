@@ -978,11 +978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/usuario/Documentos/trabe-estagio/apiProdutosCRUD/apiProdutosCRUD.csproj",
+      "projectUniqueName": "/home/usuario/Documentos/GitHub/Api-Produtos-Com-CSharp/apiProdutosCRUD/apiProdutosCRUD.csproj",
       "projectName": "apiProdutosCRUD",
-      "projectPath": "/home/usuario/Documentos/trabe-estagio/apiProdutosCRUD/apiProdutosCRUD.csproj",
+      "projectPath": "/home/usuario/Documentos/GitHub/Api-Produtos-Com-CSharp/apiProdutosCRUD/apiProdutosCRUD.csproj",
       "packagesPath": "/home/usuario/.nuget/packages/",
-      "outputPath": "/home/usuario/Documentos/trabe-estagio/apiProdutosCRUD/obj/",
+      "outputPath": "/home/usuario/Documentos/GitHub/Api-Produtos-Com-CSharp/apiProdutosCRUD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/usuario/.nuget/NuGet/NuGet.Config"
