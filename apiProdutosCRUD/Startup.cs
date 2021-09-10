@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using apiProdutosCRUD.Data;
 
 namespace apiProdutosCRUD
 {
@@ -32,6 +34,7 @@ namespace apiProdutosCRUD
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "apiProdutosCRUD", Version = "v1" });
             });
+            services.AddDbContext<DataContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ServerConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
