@@ -37,14 +37,16 @@ cd apiProdutosCRUD
 # executar o projeto
 dotnet run
 ```
-## Observação
+## Observação (Antes de execultar, atualize o seguinte arquivo)
+
 - acesse o arquivo 'appsettings.json' 
 
 - Altere a linha de conexão para seu usuario e senha do sql server;
 
 - Crie um novo banco de dados sql Server com o nome "api_produto"
 
-    Exemplo: Server=SeuLocalHostouConexaoremota;Initial Catalog=OBancoDados;Persist Security Info=False;User ID=SeuIDdeUsuario;Password=ASuaSenha;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;(Copie esse codigo e cole no arquivo).
+    Exemplo: Server=SeuLocalHostouConexaoremota;Initial Catalog=api_produto;Persist Security Info=False;User ID=SeuIDdeUsuario;Password=ASuaSenha;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;(Copie esse codigo e cole no arquivo).
+
 
 ### Acessando e Utilizando o Sistema
 
