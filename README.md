@@ -34,6 +34,9 @@ git clone https://github.com/ArtDevRodrigues/Api-Produtos-Com-CSharp.git
 # entrar na pasta do projeto
 cd apiProdutosCRUD
 
+# Criar o banco de dados com EF (altere a conexão ao sql server antes)
+dotnet ef database update
+
 # executar o projeto
 dotnet run
 ```
