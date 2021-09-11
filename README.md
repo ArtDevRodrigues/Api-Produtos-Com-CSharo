@@ -47,14 +47,13 @@ dotnet run
 
     Exemplo: Server=SeuLocalHostouConexaoremota;Initial Catalog=api_produto;Persist Security Info=False;User ID=SeuIDdeUsuario;Password=ASuaSenha;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;(Copie esse codigo e cole no arquivo).
 
-
 ### Acessando e Utilizando o Sistema
 
 Acesse o navegado com o seguinte link para ver a listagem em sua maquina local: https://localhost:5001/produto/api
 
 Acesse o navegado com o seguinte link para utilizar o CRUD caso não queira instalar um Cliente em sua maquina: https://localhost:5001/swagger/index.html
 
-### Contatos do Autor
+## Contatos do Autor
 
 - Email: artdevrodrigues@gmail.com
 - Linkdin: https://www.linkedin.com/in/arthur-h-rodrigues-2baab6208/
