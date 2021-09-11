@@ -49,9 +49,9 @@ dotnet run
 
 ### Acessando e Utilizando o Sistema
 
-Acesse o navegado com o seguinte link para ver a listagem em sua maquina local: https://localhost:5001/produto/api
+Acesse o navegador com o seguinte link para ver a listagem em sua maquina local: https://localhost:5001/produto/api
 
-Acesse o navegado com o seguinte link para utilizar o CRUD caso não queira instalar um Cliente em sua maquina: https://localhost:5001/swagger/index.html
+Acesse o navegador com o seguinte link para utilizar o CRUD caso não queira instalar um Cliente em sua maquina: https://localhost:5001/swagger/index.html
 
 ## Contatos do Autor
 
